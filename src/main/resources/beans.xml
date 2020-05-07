@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--创建一个需要映射的对象-->
+    <bean id = "person" class="com.my.Person">
+
+        <property name="name" value="hzy"></property>
+
+        <property name="age" value="22"></property>
+
+    </bean>
+
+</beans>
